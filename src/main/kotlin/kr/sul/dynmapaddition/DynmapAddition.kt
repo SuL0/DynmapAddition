@@ -1,6 +1,6 @@
 package kr.sul.dynmapaddition
 
-import kr.sul.dynmapaddition.grave.GraveMarkerManager
+import kr.sul.dynmapaddition.grave.GraveMarkerMgr
 import kr.sul.dynmapaddition.playervisibility.ShowOnlySurvivalPlayers
 import org.bukkit.Bukkit
 import org.bukkit.plugin.Plugin
@@ -17,6 +17,6 @@ class DynmapAddition : JavaPlugin() {
     }
     private fun registerClasses() {
         Bukkit.getPluginManager().registerEvents(ShowOnlySurvivalPlayers, this)
-        Bukkit.getPluginManager().registerEvents(GraveMarkerManager, this)
+        Bukkit.getPluginManager().registerEvents(GraveMarkerMgr, this)
     }
 }

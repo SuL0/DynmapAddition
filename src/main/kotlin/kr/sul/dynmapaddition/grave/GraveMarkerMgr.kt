@@ -6,7 +6,7 @@ import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
 import org.bukkit.event.entity.PlayerDeathEvent
 
-object GraveMarkerManager : Listener {
+object GraveMarkerMgr : Listener {
     private const val VALIDITY_TERM = 300 //s
     @EventHandler
     fun onDeath(e: PlayerDeathEvent) {

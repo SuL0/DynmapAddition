@@ -34,7 +34,6 @@ object GraveMarkerSet {
         for (marker in markerSet.markers) {
             try {
                 val markerExpireTime = marker.markerID.toLong()
-                Bukkit.getServer().broadcastMessage("$currentTimeMillis > $markerExpireTime")
                 if (currentTimeMillis > markerExpireTime) {
                     marker.deleteMarker()
                 }
