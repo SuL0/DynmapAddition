@@ -8,7 +8,7 @@ import org.bukkit.plugin.java.JavaPlugin
 
 class DynmapAddition : JavaPlugin() {
     companion object {
-        lateinit var plugin: Plugin private set
+        internal lateinit var plugin: Plugin private set
     }
 
     override fun onEnable() {
