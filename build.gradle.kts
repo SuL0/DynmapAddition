@@ -12,7 +12,7 @@ repositories {
     mavenLocal()
 }
 
-val pluginStorage = "C:/Users/PHR/Desktop/PluginStorage"
+val pluginStorage = "C:/MC-Development/PluginStorage"
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     compileOnly("com.destroystokyo.paper", "paper-api", "1.12.2-R0.1-SNAPSHOT")

@@ -1,6 +1,5 @@
 package kr.sul.dynmapaddition.grave
 
-import org.bukkit.Bukkit
 import org.bukkit.entity.Player
 import org.dynmap.bukkit.DynmapPlugin
 
